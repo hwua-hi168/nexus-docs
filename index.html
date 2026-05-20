@@ -8,6 +8,11 @@
     <title>Hi168 帮助文档</title>
     <link rel="stylesheet" href="vue.css" />
     <style>
+        /* 隐藏侧边栏中的"数据集及模型" */
+        .sidebar-nav a[href*="dataset-model"] {
+            display: none;
+        }
+
         /* 确保页面有白色背景，嵌入 iframe 时也可见 */
         html, body {
             background-color: #fff !important;
