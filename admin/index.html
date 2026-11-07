@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Hi168 后台管理教程</title>
+    <link rel="stylesheet" href="../vue.css" />
+    <style>
+        html,
+        body {
+            background-color: #fff !important;
+        }
+
+        .admin-doc-badge {
+            display: inline-block;
+            margin-left: 8px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: #eef4ff;
+            color: #2f6bff;
+            font-size: 12px;
+            font-weight: 500;
+            vertical-align: middle;
+        }
+
+        .sidebar-nav ul li {
+            list-style: none;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .markdown-section table {
+            display: table;
+            width: 100%;
+        }
+
+        .markdown-section code {
+            word-break: break-all;
+        }
+
+        /* 文档内提示块 */
+        .markdown-section blockquote {
+            border-left: 4px solid #2f6bff;
+            background: #f7f9ff;
+            padding: 10px 16px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">加载中…</div>
+    <script>
+        window.$docsify = {
+            basePath: './',
+            relativePath: true,
+            themeColor: '#2f6bff',
+            el: '#app',
+            homepage: 'README.md',
+            loadSidebar: '_sidebar.md',
+            notFoundPage: true,
+            subMaxLevel: 3,
+            auto2top: true,
+            name: 'Hi168 后台管理教程',
+            alias: {
+                '/.*/_sidebar.md': '/_sidebar.md'
+            }
+        };
+    </script>
+    <script src="../docsify.min.js"></script>
+</body>
+
+</html>
