@@ -10,6 +10,18 @@ Hi168 平台的 **Notebook** 模块提供基于 Web 的交互式计算环境，�
 
 Notebook 模块允许用户创建和管理交互式计算笔记本，每个 Notebook 实例运行在独立的云端计算环境中，无需在本地安装任何开发工具或配置运行环境。
 
+### 1.0 入口与界面
+
+| 入口 | 路径 |
+| --- | --- |
+| 启动菜单 | 桌面左下角 **Hi168** →「Notebook」 |
+| 控制台 | 控制台 → 左侧「Notebook」 |
+| 桌面图标 | 安装后单击打开 |
+
+![Notebook 列表](./images/help/notebook-list.png)
+
+窗口顶部右上角为 **创建Notebook** 按钮；列表为空时显示「暂无数据」。
+
 ### 1.1 核心特性
 
 | 特性 | 说明 |
@@ -31,12 +43,16 @@ Notebook 模块允许用户创建和管理交互式计算笔记本，每个 Note
 
 ### 2.2 创建 Notebook
 
-点击「创建 Notebook」按钮即可创建新的 Notebook 实例：
+点击「创建Notebook」按钮即可创建新的 Notebook 实例：
 
-1. 点击页面右上角「创建 Notebook」。
-2. 填写 Notebook 名称及相关配置（如计算资源、Kernel 类型等）。
-3. 确认创建，系统自动初始化计算环境。
+1. 点击窗口右上角「创建Notebook」。
+2. 在弹窗中填写 Notebook 名称（如 `data-analysis-01`）。
+3. 点击「创建」，系统自动初始化计算环境。
 4. 创建完成后，点击 Notebook 名称即可进入编辑界面。
+
+![创建 Notebook](./images/help/notebook-create.png)
+
+> 创建 Notebook 会占用云端计算资源并产生计费；长期不用请删除实例。
 
 ### 2.3 编辑与运行
 

@@ -6,6 +6,30 @@ Hi168 平台的 **AI Playground** 模块提供统一的大语言模型对话、�
 
 ---
 
+## 〇、入口与界面
+
+| 入口 | 路径 |
+| --- | --- |
+| 启动菜单 | 桌面左下角 **Hi168** →「NEXUS AI」 |
+| 桌面图标 | 安装后出现在桌面，单击打开 |
+
+打开 NEXUS AI 后先进入工作台首页，页面展示：
+
+- 账户信息、订阅状态、余额与消耗进度；
+- 模型用量分布（按 GPT / DeepSeek / Claude / Grok 等）；
+- 最近请求记录（模型、状态、合计 Tokens、调用时间）；
+- 快速入口：**Playground、令牌管理、接入指南、模型广场**。
+
+![NEXUS AI 工作台](./images/help/nexusai-home.png)
+
+点击「Playground」进入对话界面：
+
+![AI Playground 对话界面](./images/help/nexusai-playground.png)
+
+> **使用前提**：Playground 需要先创建 **API 令牌**（`sk-nxl-` 开头）。未配置时页面会提示「API 令牌未配置」，请按页面指引到左侧「API 令牌」创建，并在右上角「参数设置」中填写。
+
+---
+
 ## 一、功能说明
 
 ### 1.1 核心特性

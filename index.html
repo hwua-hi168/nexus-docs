@@ -121,7 +121,7 @@
 
         // 获取并处理 URL 查询参数
         console.log(`window.location.href[${window.location.href}]`)
-        let link1 = 'docs/README.md';
+        let link1 = 'home.md';
         if(window.location.href.includes("?")){
             let link = removeHashFromEnd(window.location.href.split('?')[1]);
             if (link !== 'undefined' && link !== 'abcShop') {
@@ -140,6 +140,7 @@
         // 配置 docsify 选项
         window.$docsify = {
             basePath: './',
+            relativePath: true,
             themeColor: '#990066',
             el: '#app',
             homepage: link1,
