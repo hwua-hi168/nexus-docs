@@ -16,6 +16,8 @@ Hi168 是一站式云计算服务平台，为您提供云端应用部署、对�
 
 📖 **完整文档导航**：[按模块查看全部 17 篇文档](docs/README.md)
 
+📥 **下载离线手册**：<a href="downloads/Hi168-云平台使用手册-v2.12.1.docx" download>Word 版（推荐）</a> · <a href="downloads/Hi168-云平台使用手册-v2.12.1.pdf" download>PDF 版</a>
+
 ---
 
 ## 🚀 快速开始

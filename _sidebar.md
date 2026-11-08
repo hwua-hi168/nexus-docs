@@ -23,3 +23,7 @@
   * [平台与个人设置](./docs/platform-settings)
 * **附录**
   * [计费规则](./docs/appendix)
+
+* **下载**
+  * <a href="downloads/Hi168-云平台使用手册-v2.12.1.docx" download>使用手册 · Word 版</a>
+  * <a href="downloads/Hi168-云平台使用手册-v2.12.1.pdf" download>使用手册 · PDF 版</a>
