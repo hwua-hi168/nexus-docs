@@ -1,3 +1,5 @@
+* **下载**
+  * [📥 Word 版教程](/help/admin/downloads/Hi168-Admin-Tutorial.docx ':ignore')
 * **开始使用**
   * [教程总览](./README)
   * [权限与访问入口](./access-control)
