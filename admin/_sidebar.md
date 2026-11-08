@@ -12,6 +12,6 @@
   * [科研模块](./research)
   * [广场管理](./community)
 * **系统与数据**
-  * [数据迁移（暂时下架）](./migration)
+  * [数据迁移](./migration)
   * [系统管理](./system)
   * [通用操作与 FAQ](./appendix)
